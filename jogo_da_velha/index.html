@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+        <section class="game">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+            <div class="box5">5</div>
+            <div class="box6">6</div>
+            <div class="box7">7</div>
+            <div class="box8">8</div>
+            <div class="box9">9</div>
+        </section>
+        <script>
+            var box1 = window.document.querySelector(".box1")
+            box1.addEventListener('click', clicar1)
+
+            var box2 = window.document.querySelector(".box2")
+            box2.addEventListener('click', clicar2)
+
+            var box3 = window.document.querySelector(".box3")
+            box3.addEventListener('click', clicar3)
+
+            var box4 = window.document.querySelector(".box4")
+            box4.addEventListener('click', clicar4)
+
+            var box5 = window.document.querySelector(".box5")
+            box5.addEventListener('click', clicar5)
+
+            var box6 = window.document.querySelector(".box6")
+            box6.addEventListener('click', clicar6)
+
+            var box7 = window.document.querySelector(".box7")
+            box7.addEventListener('click', clicar7)
+
+            var box8 = window.document.querySelector(".box8")
+            box8.addEventListener('click', clicar8)
+
+            var box9 = window.document.querySelector(".box9")
+            box9.addEventListener('click', clicar9)
+
+            function clicar1(){
+                box1.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box1.innerText = escolha
+            }
+
+            function clicar2(){
+                box2.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box2.innerText = escolha
+            }
+
+            function clicar3(){
+                box3.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box3.innerText = escolha
+            }
+
+            function clicar4(){
+                box4.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box4.innerText = escolha
+            }
+
+            function clicar5(){
+                box5.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box5.innerText = escolha
+            }
+
+            function clicar6(){
+                box6.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box6.innerText = escolha
+            }
+
+            function clicar7(){
+                box7.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box7.innerText = escolha
+            }
+
+            function clicar8(){
+                box8.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box8.innerText = escolha
+            }
+
+            function clicar9(){
+                box9.style.backgroundColor = "red" 
+                var escolha = window.prompt('Digite X ou O')
+                box9.innerText = escolha
+            }
+        </script>   
+</body>
+</html>

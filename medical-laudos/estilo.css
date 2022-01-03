@@ -1,0 +1,136 @@
+8{
+    height: 100%
+}
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;   
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.logo{
+    padding-top: 3px;
+    width: 300px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 3px;
+}
+.redes{
+    padding-top: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+    float: right;
+}
+.redes ul li{    
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.cabecalho{
+    background-image: linear-gradient(to right, white, rgb(3, 119, 219), white);
+
+}
+@media(max-width: 800px){
+.contatos{
+    color: white;
+    clear: left;
+    width: 330px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+    left: 10px;
+    margin-left: 3px;
+}}
+@media(min-width: 800px){
+    .contatos{
+        padding-top: 20px;
+        color: white;
+        width: 330px;
+        margin-bottom: 10px;
+        position: relative;
+        float: left;
+        left: 30px;
+    }}
+.clear{
+    clear: left;
+}
+.capa{
+    width: 100%;
+}
+.menu1{ 
+    background-image: linear-gradient(to right, white, rgb(3, 119, 219), white);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(240, 232, 232);
+    height: 100px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+@media(max-width: 900px){
+.menu1 ul{
+    border: 1px solid red;
+    position: relative;
+    left: -70px;
+    text-align: center;
+    margin: 0 110px 0 110px;
+}}
+@media(min-width: 900px){
+    .menu1 ul{
+        position: relative;
+        top: 40px;
+        text-align: center;
+        padding: 10px 0 10px 0;
+    }}
+@media(max-width: 900px){
+.menu1 ul li{
+    border: 1px solid red;
+    position: relative;
+    left: -25px;
+    margin-bottom: 3px;
+    list-style: none;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;    
+}
+}
+@media(max-width: 900px){
+.menu1 ul a li{
+
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+}
+@media(min-width: 900px){
+    .menu1 ul li{        
+        display: inline-block;
+        list-style: none;
+        width: -120px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0 5px 0 5px;
+    }
+    }
+@media(min-width: 900px){
+    .menu1 ul a li{
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        width: 120px;
+    }
+    }
+.menu1 ul li:hover{
+    background-color:rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+}
+.rodape{
+    margin: 10px;
+}

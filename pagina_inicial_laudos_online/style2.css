@@ -1,0 +1,10 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    background-image: linear-gradient(90deg, #f9fbfc, #000000); 
+}

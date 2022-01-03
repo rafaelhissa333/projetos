@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(90deg, #f9fbfc,#4a6d91, #000000); 
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.logo_LR{
+    position: absolute;
+    right: 3px;
+}
+
+.logo{
+    border-bottom: 5px solid #aebbcb;
+    border-right: 3px solid #7c90ab;
+    background-color: white;
+}
+
+/* Navbar container */
+.navbar{
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #f5f5f5, #c1c1c1);
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+/* Links inside the navbar */
+.navbar a{
+    float: left;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* The dropdown container */
+.dropdown1, .dropdown2{
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button 1 */
+.dropdown1 .dropbtn1{
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    height: 40px;
+    padding: 6px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-left: 1px solid rgba(0, 0, 0, 0.664);
+    border-top: 1px solid rgba(0, 0, 0, 0.664);
+    background-image: linear-gradient(to bottom, #f3f3f3, #c3c3c3);
+}
+
+/* Dropdown button 2 */
+.dropdown2 .dropbtn2{
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    height: 40px;
+    padding: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.664);
+    border-top: 1px solid rgba(0, 0, 0, 0.664);
+    background-image: linear-gradient(to bottom, #f3f3f3, #c3c3c3);
+}
+
+/* Add a blue background color to navbar links on hover */
+.dropdown1:hover .dropbtn1, .dropdown2:hover .dropbtn2{
+    background-image: linear-gradient(to bottom, #8fcff2, #0c97e2, #32a4e1);
+    
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content1, .dropdown-content2{
+    display: none;
+    position: absolute;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a, .dropdown-content2 a{
+    float: none;
+    color: black;
+    display: block;
+    text-align: left;
+    border: none;
+}
+
+/* Add a blue color to dropdown links on hover */
+.dropdown-content1 a:hover, .dropdown-content2 a:hover{
+    color: #0978b3;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2{
+    display: block;
+}
+.clear{
+    clear: left;
+}
